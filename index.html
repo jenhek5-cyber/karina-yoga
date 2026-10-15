@@ -40,6 +40,11 @@ font-weight:850;border-radius:15px;box-shadow:0 8px 24px #26361f45;
 }
 .directions .tag{background:#edf1df;border:1px solid #dfe7d1;color:var(--green)}.schedule-item{border-top:1px solid #e6e9df;padding:16px 0;display:grid;gap:7px}.schedule-item b{font-size:18px}.schedule-item small{color:var(--muted);font-size:14px}.schedule-item a{display:inline-block;color:var(--green);font-weight:750;margin-top:3px}.schedule-alert{padding:16px;border-radius:15px;background:#f3f5ec;color:var(--deep);line-height:1.5}
 .availability{display:inline-flex;align-items:center;gap:7px;align-self:flex-start;width:fit-content;padding:7px 12px;border-radius:999px;font-size:13px!important;font-weight:700;line-height:1.25;background:#f1f2ed;color:#65705e}.availability.available{background:#edf3e5;color:#40552d}.availability.low{background:#fff0da;color:#865d26}.availability.full{background:#f0efed;color:#66665f}.availability.available::before{content:"✓";font-size:13px}.availability.low::before{content:"!";font-weight:800}.availability.full::before{content:"–"}\n.instagram-panel .instagram-link{display:inline-flex;align-items:center;justify-content:center;gap:10px;max-width:100%;margin-top:18px;padding:13px 18px;border-radius:16px;background:#edf1df;color:var(--green);font-weight:800;text-decoration:none;overflow-wrap:anywhere}.instagram-panel .instagram-link:hover{background:#e1e9d3}.instagram-mark{font-size:23px;line-height:1}.instagram-panel p{max-width:55ch}
+.benefits-panel>.eyebrow,.benefits-panel>h2,.join-heading,.join-heading+h2{text-align:center}
+.benefits-panel>.tags{justify-content:center;gap:9px}
+.about{gap:18px}
+.join-heading~.steps{margin-top:22px}
+@media(max-width:560px){.benefits-panel>.tags{margin-top:20px}.benefits-panel>p{margin-top:22px!important}.join-heading~.steps .step{padding:16px 0}}
 </style>
 </head>
 <body>
@@ -69,14 +74,14 @@ font-weight:850;border-radius:15px;box-shadow:0 8px 24px #26361f45;
 <p>Подойдёт тем, кто только знакомится с йогой, и тем, кто уже практикует. Главная идея — движение с вниманием к себе и удовольствие от процесса.</p>
 </section>
 
-<section class="panel green">
+<section class="panel green benefits-panel">
 <div class="eyebrow">Что даёт практика</div><h2>Время для тела и себя</h2>
 <div class="tags"><span class="tag">Гибкость</span><span class="tag">Баланс</span><span class="tag">Спокойствие</span><span class="tag">Энергия</span><span class="tag">Осанка</span><span class="tag">Общение</span></div>
 <p style="margin-top:17px">Занятия проходят по актуальному расписанию. Карина поможет выбрать подходящее направление и уровень практики.</p>
 </section>
 
 <section class="panel">
-<div class="eyebrow">Как присоединиться</div><h2>Всё просто</h2>
+<div class="eyebrow join-heading">Как присоединиться</div><h2>Всё просто</h2>
 <div class="steps">
 <div class="step"><div class="num">1</div><div><b>Напишите Карине</b><span>Перейдите в Telegram и сообщите, что хотите прийти на занятие.</span></div></div>
 <div class="step"><div class="num">2</div><div><b>Выберите занятие</b><span>Посмотрите актуальные дату, время и место в расписании.</span></div></div>
